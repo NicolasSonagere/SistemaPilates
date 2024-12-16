@@ -1,0 +1,136 @@
+/* Reset básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 2% 20%;
+}
+
+/* Contêiner principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Estilo para os formulários */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo para inputs, selects e botões */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Botão de envio */
+button {
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para a listagem de alunos */
+.lista-alunos {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-alunos li {
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.lista-alunos li:hover {
+    background-color: #dfe6e9;
+}
+
+/* Estilo para os links de navegação (se necessário) */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a tabela na Lista de Alunos*/
+table {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 1em;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
